@@ -118,6 +118,8 @@ public class Client {
         sc.nextLine();
         System.out.print("Port: ");
         port = sc.nextInt();
+        // 버퍼 비워줌(Enter)
+        sc.nextLine();
 
         // 예외 처리하기 편하게 그냥 try로 싹 묶음
         try {
